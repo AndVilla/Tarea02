@@ -3,8 +3,8 @@ package Tarea02.cl;
 public class BotonNodo extends Panel {
 	 
 
-	   public void botonNodo(int largo, int ancho){
-		   super.panel(largo,ancho);
+	   public BotonNodo(int largo, int ancho){
+		   super(largo,ancho);
 		   setColor("blue");
 		   setForma("Circulo");
 	   }

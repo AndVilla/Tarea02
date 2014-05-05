@@ -6,7 +6,7 @@ public class Panel {
 	private String color;
 	private String forma;
 	
-	public void panel(int largo, int ancho){
+	public Panel(int largo, int ancho){
 		this.largo = largo;
 		this.ancho = ancho;
 	
